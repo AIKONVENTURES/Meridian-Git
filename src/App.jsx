@@ -30,7 +30,7 @@ function App() {
       {/* Header */}
       <header className="meridian-navy-bg text-white py-4 px-6 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-10 filter brightness-0 invert" />
+          <img src="/assets/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-10 filter brightness-0 invert" />
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="hover:text-blue-200 transition-colors">About</a>
             <a href="#services" className="hover:text-blue-200 transition-colors">Services</a>
@@ -76,7 +76,7 @@ function App() {
               </div>
             </div>
             <div className="text-center lg:text-right">
-              <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-32 mx-auto lg:ml-auto filter brightness-0 invert opacity-80" />
+              <img src="/assets/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-32 mx-auto lg:ml-auto filter brightness-0 invert opacity-80" />
             </div>
           </div>
         </div>
@@ -458,7 +458,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-8 mb-4 filter brightness-0 invert" />
+              <img src="/assets/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-8 mb-4 filter brightness-0 invert" />
               <p className="text-gray-400 leading-relaxed">
                 Boutique strategic consulting firm specializing in cross-border M&A and international expansion.
               </p>
