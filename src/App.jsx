@@ -2,8 +2,6 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent } from '@/components/ui/card.jsx'
 import { Mail, Phone, MapPin, Globe, Users, TrendingUp, Target, Briefcase, CheckCircle, ArrowRight, Building, Handshake } from 'lucide-react'
-import logoHorizontal from './assets/brand_darker_icon_name_white.png'
-import logoVertical from './assets/brand_darker_icon_name_white.png'
 import './App.css'
 
 function App() {
@@ -32,7 +30,7 @@ function App() {
       {/* Header */}
       <header className="meridian-navy-bg text-white py-4 px-6 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <img src={logoHorizontal} alt="Meridian Advisory Partners" className="h-10 filter brightness-0 invert" />
+          <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-10 filter brightness-0 invert" />
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="hover:text-blue-200 transition-colors">About</a>
             <a href="#services" className="hover:text-blue-200 transition-colors">Services</a>
@@ -49,7 +47,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Cross-Border M&A Excellence
+                Cross-Border Strategic Growth Excellence
               </h1>
               <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
                 We advise CEOs and private equity funds seeking strategic growth through cross-border acquisitions, international expansion, and seamless post-merger integration.
@@ -78,7 +76,7 @@ function App() {
               </div>
             </div>
             <div className="text-center lg:text-right">
-              <img src={logoVertical} alt="Meridian Advisory Partners" className="h-32 mx-auto lg:ml-auto filter brightness-0 invert opacity-80" />
+              <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-32 mx-auto lg:ml-auto filter brightness-0 invert opacity-80" />
             </div>
           </div>
         </div>
@@ -207,7 +205,7 @@ function App() {
                 <div className="meridian-navy-bg text-white rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <Globe className="w-8 h-8" />
                 </div>
-                <h3 className="text-2xl font-semibold meridian-navy mb-4">Internationalisation</h3>
+                <h3 className="text-2xl font-semibold meridian-navy mb-4">International Growth</h3>
                 <p className="text-gray-700 mb-6 leading-relaxed">
                   Strategic market entry consulting and execution support for companies seeking organic international expansion, strategic partnerships, and sustainable growth in new markets.
                 </p>
@@ -460,7 +458,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <img src={logoHorizontal} alt="Meridian Advisory Partners" className="h-8 mb-4 filter brightness-0 invert" />
+              <img src="/brand_package/brand_darker_icon_name_white.png" alt="Meridian Advisory Partners" className="h-8 mb-4 filter brightness-0 invert" />
               <p className="text-gray-400 leading-relaxed">
                 Boutique strategic consulting firm specializing in cross-border M&A and international expansion.
               </p>
