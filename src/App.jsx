@@ -50,7 +50,7 @@ function App() {
                 Cross-Border Strategic Growth Excellence
               </h1>
               <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
-                We advise CEOs and private equity funds seeking strategic growth through cross-border acquisitions, international expansion, and seamless post-merger integration.
+                We advise CEOs and private equity funds seeking strategic growth through cross-border acquisitions and international expansion.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50 px-8 py-3 text-lg">
@@ -268,8 +268,8 @@ function App() {
                 </div>
                 <h3 className="text-xl font-semibold meridian-navy mb-4">Planning</h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Detailed integration and implementation planning that addresses cultural alignment, operational harmonization, and risk mitigation to ensure seamless execution and synergy realization.
                 </p>
+                  Detailed integration and implementation planning that addresses cultural alignment, operational harmonization, and risk mitigation to ensure seamless execution and synergy realization.
               </CardContent>
             </Card>
 
